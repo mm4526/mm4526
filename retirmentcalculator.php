@@ -6,21 +6,20 @@
 <body>
 	<h1>Welcome to the retirement Calculator!</h1>
     	<h3> Try out the<a href="bmicalculator.php"> BMI calculator</a>.</h3>
-    	<p>Please enter your current age, current salary, and desired savings goals. </p>
+    	<p>Please enter your current age, current salary, and desired savings goals.</p>
     
-    	<form action = "retirementcalculator.php" method= "POST" >
-        	<label for='currage'>Current Age:</label>
-        	<input type = "number" name= "age" id= "age" value= "<?php echo $currage; ?>"min= "18" max = "100" >< br >< br >
+    	<form action="retirementcalculator.php" method="POST">
+		<label for='currage'>Current Age:</label>
+        	<input type ="number" name="age" id="age" value="<?php echo $currage; ?>"min= "18" max = "100"><br><br>
 
 		<label for='currsalary'>Current Salary:</label>
-        	<input type = "number" name= "currsalary" id= "currsalary" value= "<?php echo $currsalary; ?>"min= "10000" max = "15000000" >< br >< br >
+        	<input type ="number" name="currsalary" id="currsalary" value="<?php echo $currsalary; ?>"min= "10000" max = "15000000"><br><br>
 
 	    	<label for='savingsgoal'>Desired Savings Goal:</label> 
-        	<input type = "number" name= "savingsgoal" id= "savingsgoal" value= "<?php echo $savingsgoal; ?>"min= "100000" max = "20000000" >< br >< br >
+        	<input type ="number" name="savingsgoal" id="savingsgoal" value="<?php echo $savingsgoal; ?>"min= "100000" max = "20000000"><br ><br>
 
-	    	<input type= 'submit' value= "Submit" name= "Submit" >
-
-	    	<input type= "reset" > < br >< br >
+	    	<input type='submit' value="Submit" name="Submit">
+	    	<input type= "reset"><br><br>
 	</form>
 
 
@@ -56,6 +55,7 @@
        
     	}
 	?>
+	
 </body>
 </html>
    
