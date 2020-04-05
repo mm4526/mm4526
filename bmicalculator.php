@@ -10,10 +10,10 @@
 	
 	<form action = "bmicalculator.php" method= "POST">
         	<label for='cweight'>Current Weight:</label>
-        	<input type = "number" name= "weight" id= "weight" value= "<?php echo $cweight; ?>"min= "18" max = "100"><br><br>
+        	<input type = "number" name= "weight" id= "weight" value= "<?php echo $cweight; ?>"min= "0" max = "600"><br><br>
 
 		<label for='cheight'>Current Height:</label>
-        	<input type ="number" name="height" id="height" value="<?php echo $cheight; ?>"min="10000" max ="15000000"><br><br>
+        	<input type ="number" name="height" id="height" value="<?php echo $cheight; ?>"min="0" max ="100"><br><br>
 
 	    
 	    	<input type='submit' value= "Submit" name= "Submit" >
